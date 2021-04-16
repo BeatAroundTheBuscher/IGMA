@@ -1,0 +1,158 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_MULTI_LASER_SENTINEL: "Sentinel Multilaser"
+      STR_GUARD_ARMORS_SENTINEL_MULTILASER: "Sentinel/Multilaser"
+      STR_GUARD_ARMORS_SENTINEL_MULTILASER_UC: "Sentinel/Multilaser"
+      STR_GUARD_ARMORS_SENTINEL_MULTILASER_UC_UFOPEDIA: "The Sentinel is a one-man all-terrain bipedal vehicle, deploying firepower in enivornments that would immobilize heavier vehicles. Marching alongside the Imperial Guard, they are effective scouts and fire support platforms.{NEWLINE}Weapon: Multilaser"
+
+ufopaedia:
+  - id: STR_GUARD_ARMORS_SENTINEL_MULTILASER_UC              #6800   #ARMOR
+    type_id: 15
+    section: STR_ARMORPEDIA
+    image_id: SENTINEL_LASCANNON.SPK #0GU3.SPK
+    text: STR_GUARD_ARMORS_SENTINEL_MULTILASER_UC_UFOPEDIA
+    requires:
+        - STR_GUARD_SUPORT
+    listOrder: 6799
+
+# allows stats for nerds entry to be viewed
+  - id: STR_MULTI_LASER_SENTINEL
+    type_id: 14
+    section: STR_NOT_AVAILABLE
+
+# copied from 40k STR_SENTINEL_ARMOR and CHIMERA
+items:
+  - type: STR_GUARD_ARMORS_SENTINEL_MULTILASER                #6800
+    requiresBuy:
+      - STR_GUARD_SUPORT
+    size: 2
+    costBuy: 320000
+    costSell: 100000
+    transferTime: 50
+    listOrder: 6799
+
+  - type: STR_MULTI_LASER_SENTINEL 
+    size: 1.0
+    weight: 0
+    floorSprite: {mod: 40k, index: 0}
+    handSprite: {mod: 40k, index: 0}
+    bigSprite: 221 # {mod: 40k, index: 1081}
+    bulletSprite: {mod: 40k, index: 12}
+    hitSound: {mod: 40k, index: 19}
+    hitAnimation: {mod: 40k, index: 36}
+    explosionSpeed: 5
+    power: 50
+    fireSound: {mod: 40k, index: 742}
+    accuracyAuto: 35
+    tuAuto: 40
+    autoRange: 20
+    autoShots: 5
+    sprayWaypoints: 2
+    dropoff: 5
+    clipSize: -1
+    battleType: 1
+    invWidth: 2
+    invHeight: 3
+    bulletSpeed: 100
+    damageType: 4
+    damageAlter: #DA LAS
+      ToArmorPre: 0.2
+      ToHealth: 1.0
+      ToArmor: 0.0
+      ToStun: 0.0
+    recover: false
+    fixedWeapon: true
+
+armors:
+  - type: STR_GUARD_ARMORS_SENTINEL_MULTILASER_UC
+    visibilityAtDay: 60
+    visibilityAtDark: 60
+    heatVision: 50
+    instantWoundRecovery: true
+    spriteSheet: SENT.PCK
+    customArmorPreviewIndex: [{mod: 40k, index: 560}, {mod: 40k, index: 561}, {mod: 40k, index: 562}]
+    storeItem: STR_GUARD_ARMORS_SENTINEL_MULTILASER
+    corpseGeo:  STR_BIKE_CORPSE
+    corpseBattle:
+      - 5_SENT1
+      - 5_SENT2
+      - 5_SENT3
+      - 5_SENT4
+    frontArmor: 90
+    sideArmor: 90
+    rearArmor: 80
+    underArmor: 100
+    size: 2
+    weight: 0
+    moveSound: {mod: 40k, index: 700}
+    stats:
+       tu: 20
+       stamina: 20
+       firing: 0
+       health: 50
+       bravery: 0 #always multiples of 10
+       reactions: 0
+       throwing: 0
+       strength: 0
+       psiStrength: 0
+       psiSkill: 0
+       melee: 0
+    units:
+      - STR_GUARDSM
+    damageModifier: #VEHICLE ARMOR LARGE
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.4 #FLAMES
+      - 1.0 #HE
+      - 1.4 #LASCANON
+      - 1.0 #PLASMA
+      - 0.0 #STUN
+      - 0.8 #MELEE
+      - 1.0 #ACID
+      - 0.0 #SMOKE
+      - 0.0 #IMPACT
+      - 1.2 #MELTA
+    loftempsSet: [ 92, 89, 90, 91 ]
+    drawingRoutine: 5
+    builtInWeapons:
+      - STR_MULTI_LASER_SENTINEL
+      - AUX_SENTINEL_STOMP #INV_NULL_SENTINEL_LH
+      - INV_NULL_SENTINEL_BACK_LASER
+      - INV_NULL_SENTINEL_BELT
+      - INV_NULL_SENTINEL_LL
+      - INV_NULL_2X1_RL
+    allowsKneeling: false
+    layersDefaultPrefix: GUARD
+    layersSpecificPrefix:
+      0: SENTINEL_LASCANNON
+      4: SENTINEL
+    layersDefinition:
+      F0: ["Prop", "F0", "F0_Hair_Tight", "", "Female", "", "", "", ""]
+      F1: ["Prop", "F1", "F1_Hair_Tight", "", "Female", "", "", "", ""]
+      F2: ["Prop", "F2", "F2_Hair_Tight", "", "Female", "", "", "", ""]
+      F3: ["Prop", "F3", "F3_Hair_Tight", "", "Female", "", "", "", ""]
+      F4: ["Prop", "F4", "F4_Hair_Tight", "", "Female", "", "", "", ""]
+      F5: ["Prop", "F5", "F5_Hair_Tight", "", "Female", "", "", "", ""]
+      F6: ["Prop", "F6", "F6_Hair_Tight", "", "Female", "", "", "", ""]
+      F7: ["Prop", "F7", "F7_Hair_Tight", "", "Female", "", "", "F7_Hair_Over", ""]
+      F8: ["Prop", "F8", "F8_Hair_Tight", "F8_Hair", "Female", "", "", "", ""]
+      F9: ["Prop", "F9", "F9_Hair_Tight", "F9_Hair", "Female", "", "", "", ""]
+      M0: ["Prop", "M0", "M0_Hair_Tight", "M0_Hair", "Male", "", "", "", ""]
+      M1: ["Prop", "M1", "M1_Hair_Tight", "M1_Hair", "Male", "", "", "", ""]
+      M2: ["Prop", "M2", "M2_Hair_Tight", "", "Male", "", "", "", ""]
+      M3: ["Prop", "M3", "M3_Hair_Tight", "M3_Hair", "Male", "", "", "", ""]
+      M4: ["Prop", "M4", "", "", "Male", "", "", "", ""]
+      M5: ["Prop", "M5", "M5_Hair_Tight", "", "Male", "", "", "", ""]
+      M6: ["Prop", "M6", "M6_Hair_Tight", "", "Male", "", "", "M6_Hair_Over", ""]
+      M7: ["Prop", "M7", "M7_Hair_Tight", "", "Male", "", "", "", ""]
+      M8: ["Prop", "M8", "M8_Hair_Tight", "", "Male", "", "", "", ""]
+      M9: ["Prop", "M9", "", "", "Male", "", "", "", ""]
+    selectUnitMale:     [{mod: 40k, index: 351}, {mod: 40k, index: 352}, {mod: 40k, index: 353}, {mod: 40k, index: 354}, {mod: 40k, index: 355}]
+    selectUnitFemale:   [{mod: 40k, index: 481}, {mod: 40k, index: 482}, {mod: 40k, index: 483}, {mod: 40k, index: 484}, {mod: 40k, index: 485}]
+    startMovingMale:    [{mod: 40k, index: 346}, {mod: 40k, index: 347}, {mod: 40k, index: 348}, {mod: 40k, index: 349}, {mod: 40k, index: 350}]
+    startMovingFemale:  [{mod: 40k, index: 476}, {mod: 40k, index: 477}, {mod: 40k, index: 478}, {mod: 40k, index: 479}, {mod: 40k, index: 480}]
+    selectWeaponMale:   [{mod: 40k, index: 341}, {mod: 40k, index: 342}, {mod: 40k, index: 343}, {mod: 40k, index: 344}, {mod: 40k, index: 345}]
+    selectWeaponFemale: [{mod: 40k, index: 471}, {mod: 40k, index: 472}, {mod: 40k, index: 473}, {mod: 40k, index: 474}, {mod: 40k, index: 475}]
+    annoyedMale:        [{mod: 40k, index: 356}, {mod: 40k, index: 357}, {mod: 40k, index: 358}, {mod: 40k, index: 359}, {mod: 40k, index: 350}]
+    annoyedFemale:      [{mod: 40k, index: 486}, {mod: 40k, index: 487}]

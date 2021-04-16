@@ -1,0 +1,15 @@
+manufacture:
+  - name: STR_GUARD_PRIEST_REQUISITION
+    category: STR_ADVANCEMENT
+    requires:
+      - STR_GUARD_PRIEST_REQUISITION
+    space: 0
+    time: 500
+    cost: 100000
+    requiredItems:
+      STR_ALIEN_HABITAT: 2
+    spawnedPersonType: STR_GUARD_PRIEST
+    producedItems:
+      STR_LASER_PISTOLG: 1
+      STR_LASPISTOL_CLIP: 2
+      STR_PURITY_SEAL: 1

@@ -1,0 +1,79 @@
+####
+v0.1
+####
+
+Initial release
+
+######
+v0.281
+######
+
+- added voice overs for missing units (IG medics, ...)
+v0.28 is linked to 40k version 28 => 0.28
+
+######
+v0.282
+######
+
+- added graphics for IG variant of the handheld heavy stubber, veteran officers, hellpistol, multilaser sentinel
+- added armors explicit for the veteran officer
+- added ufopaedia entries for Carapace/Medic and Adv. Officer Carapace
+- added some personal pet peeve fixes. The most important one is that the Lascannon of the Sentinel has now a power of 150 instead of 100. 200 is too much because it's a very mobile unit and would obsolete the Mounted Lascannon (which I have never used so far; I'd rather have four guardsman with Hellhammers but I disgress..)
+
+######
+v0.283
+######
+
+- restructured files, so please remove the mod folder and recreate it
+- added veteran medic armor as well as Scion variations (medic, officer, hellpistol, ...) including preview
+- added mastercrafted heavy stubber belt and enabled mastercrafted shotgun shells
+- added trades for kraken penetrator and metal storm for trade outpost
+- added kraken penetrator and metal storm for light bolters. Also added ultra patterns for light bolters
+- raised firing skill of NPC guardsman from 30 to 60 to give them a firing chance
+- added more (missing) ufopaedia entries
+- added shields to Psykers
+- added HWP slot to Grav Drop Valkyrie
+- added a blue/purple version of the Hellpistol for Scions
+- made (training) statcaps consistent for veterans and scions
+- replaced vox with airstrike for officers (it's the Arbites one)
+
+######
+v0.284
+######
+
+- added Priest who can increase the melee skill of other units
+- added Vindicare Assassins with the Exitus Rifle and special ammo
+- changed the airstrike from v0.283 for officers to buff firing accuracy instead
+- added an airstrike laser designator which requires an airstrike mission (ammo)
+- added smoke and photon grenade drum for the grenade launcher
+- added soldier 4 slots to the Tauros
+- added aimed shot to Tauros lascannon turret
+- changed the grenade launcher of the Tauros to use 5 different ammo types
+  (frag, krak, incendiary, smoke, photon)
+- added officer chainsword (thanks Leflair and Tal'Raziid)
+- changed the flamethrower to have arcing shot. 
+- changed some of the IG missions to allow the Drop Transport and Tauros as transports.
+- added the tag so Psykers and Priest can get devotion per mission
+- added the possibility to drop the ultra pattern of the light bolter weapons
+- added an ammo slot to Sentinel/Missile so it can carry additional missiles
+- finally added an armor item for the adv. carapace hellpistol variant 
+- renamed the original Hellpistol to Master Crafted Laspistol
+- added Vulture fighter/bomber craft
+
+######
+v0.291
+######
+
+- Updated to 40k version 029
+- Added handobs for laser designator (thanks ivandogovich for the improved hand objects)
+- Fixed a few other issues
+
+######
+v0.292
+######
+
+- Added an Elysian-like Jump Armor
+- Added Outposts with Transmission Decoder
+- Halved costs for Veteran promotion
+- Made weapons change the magazine color depending on ammo type
+- Modified Heavy Stubbers, MC Lasgun, etc. to reflect that

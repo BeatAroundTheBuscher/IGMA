@@ -1,0 +1,12 @@
+manufacture:
+  - name: STR_ELYSIAN_JUMP_ARMOR
+    category: STR_PERSONAL_ARMOR
+    requires:
+      - STR_ELYSIAN_JUMP_ARMOR_REQUISITION
+    space: 0
+    time: 400
+    cost: 100000
+    producedItems:
+      STR_ELYSIAN_JUMP_ARMOR: 1
+    requiredItems:
+      STR_ALIEN_HABITAT: 2

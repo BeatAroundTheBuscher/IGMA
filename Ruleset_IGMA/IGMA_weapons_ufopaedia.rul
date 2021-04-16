@@ -1,0 +1,8 @@
+ ufopaedia:
+  - id: STR_MCPISTOL                      #10200
+    text: STR_MASTER_UFOPEDIA
+
+  - id: STR_MCRIFLE                       #10400
+    text: STR_MASTER_UFOPEDIA
+
+

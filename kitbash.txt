@@ -1,0 +1,73 @@
+This is just a file to document my kitbashing attempts. By that I mean to combine one, two or more sprites into a new one.
+
+BigObs (*.png)
+heavy_stubber_light = handheld_heavy_stubber + heavy_stubber
+sentinel multilaser = chimera_multilaser
+hellpistol = 299 + hellpistol + hellpistol_disconnected
+hellpistol_purple = reshaded hellpistol
+light_bolter_ultra = 339 + bolter_locke
+light_boltpistol_ultra = 341 + boltpistol_deaz
+exitus_purple = autogun + SNIPER
+Exitus_bullets_* = S1
+airstrike_vox = xcom1 motion sensor
+airstrike_mission = B1
+grenade_launcher_*_drum = grenade_launcher_frag_drum
+null_sentinel_backpack_missile_with_ammo = null_sentinel_backpack_missile
+
+HandObs (*.png)
+handob_handheld_heavy_stubber_ig = handob_handheld_heavy_stubber + handob_heavy_stubber
+handobs_chainsword_guardofficer = 632.png inspired by Leflair's Guard Officer Chainsword
+handobs_exitus = SNIPER
+hellpistol and hellpistol_blue are original assets from the 40k basemod
+handobs_chainsword_guardofficer = 632
+
+FloorObs (*.png)
+floorob_handheld_heavy_stubber_ig = floorob_handheld_heavy_stubber + floorob_heavy_stubber
+floorob_chainsword_guardofficer = rotated handobs_chainsword_guardofficer
+
+Spicons (*.png)
+spicon_vox_buff = spicon_vox
+
+UnitSprites (*.png)
+stormtrooper_officer_carapace = stormtrooper_carapace + officer_carapace
+stormtrooper_medic_carapace = stormtrooper_carapace + medic_carapace
+
+tempestus_scion_officer = (Advanced Carapace for Others) tempestus_scion_officer +  tempestus_scion
+tempestus_scion_medic was directly taken from Advanced Carapace for Others
+
+
+Officer_Carapace_Female = (Advanced Carapace for Others) Officer_Carapace_Female + Officer_Carapace_Inv/man_0f0.gif + Stormtrooper_Carapace_Inv/man_0f0.gif
+Officer_Carapace_Male = (Advanced Carapace for Others) Officer_Carapace_Male + Officer_Carapace_Inv/man_0m0.gif + Stormtrooper_Carapace_Inv/man_0m0.gif
+
+Veteran_Medic_Carapace_Female = Medic_Female + Stormtrooper_Female
+Veteran_Medic_Carapace_Male = Medic_Male + Stormtrooper_Male
+
+Scion_Officer_Carapace_Female = (Advanced Carapace for Others) Officer_Carapace_Female
+Scion_Officer_Carapace_Male = (Advanced Carapace for Others) Officer_Carapace_Male
+
+Scion_Medic_Female = (Advanced Carapace for Others) Scion_Medic_Female
+Scion_Medic_Male = (Advanced Carapace for Others) Scion_Medic_Male
+
+
+
+
+
+
+armor_previews_guard.png = armor_previews_guard.png
+
+
+#######
+Leflair
+#######
+
+chainsword_guardofficer with some slight changes
+
+############################
+directly taken from XPiratez
+############################
+
+imperial_assassin_bigobs
+imperial_assassin_floorob
+priest
+imperial_assassin (slightly touched up, needs more work)
+imperial_assassin_inventory (face was created by myself with help of Leflair)

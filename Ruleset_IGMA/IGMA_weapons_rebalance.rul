@@ -1,0 +1,27 @@
+# only very minor things
+# the lasgun change is to make them more consistent
+# now it doesn't depend on the unit's TUs and rounding if they can shoot two or three autofire salvos
+
+
+items: 
+  - type: STR_LASER_RIFLE # blue one
+    tuAuto: 33 # was 34
+
+  - type: STR_LASER_RIFLEG #LASGUN GUARD
+    tuAuto: 33 # was 34
+
+  - type: STR_LASCARBINE
+    tuAuto: 33 # was 34
+
+  - type: STR_LASGUN_VOSS
+    tuAuto: 33 # was 34
+
+  - type: STR_LASGUN_TANITH
+    tuAuto: 33 # was 34
+
+  - type: STR_MCLASER_RIFLE #LASGUN
+    tuAuto: 33 # was 34
+
+  - type: STR_HELLGUN
+    tuAuto: 33 # was 34
+  

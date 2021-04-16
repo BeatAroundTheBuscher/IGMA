@@ -1,0 +1,10 @@
+# add string for STR_PDF_ASSAULT. 
+
+extraStrings:
+  - type: en-US
+    strings:
+      STR_PDF_ASSAULT: "Support PDF Assault"
+
+#armors:
+#  - type: STR_GUARD_ARMORP_UC
+#    isPilotArmor: true

@@ -1,0 +1,26 @@
+items:
+
+# Don't like how that 50% training mechanism works. I'd prefer if experience was halved instead of having a 50% chance to get training points. Might not matter much on average but it annoys me anyway.
+  - type: STR_AUTOGUN
+    experienceTrainingMode: 4
+
+  - type: STR_AUTOPISTOL
+    experienceTrainingMode: 4
+
+  - type: STR_FLAMETHROWER
+    arcingShot: true
+
+# more meaty sound
+  - type: STR_GUARD_PRIMER
+    meleeSound: {mod: 40k, index: 754}
+    meleeHitSound: {mod: 40k, index: 773}
+    meleeAnimation: {mod: 40k, index: 4}
+
+  - type: STR_BAYONET
+    meleeSound: {mod: 40k, index: 754}
+    meleeHitSound: {mod: 40k, index: 773}
+    meleeAnimation: {mod: 40k, index: 4}
+
+# Guard sentinel has lower damage; on the other hand it's mobile and doesn't need ammo
+  - type: STR_SLASCAN
+    power: 150 # was 100 # wanted 200 (see reason above for not)

@@ -1,0 +1,10 @@
+# delay lascannon sentinel in favor of multilaser
+ufopaedia:
+  - id: STR_SENTINEL_ARMOR_UC              #6800   #ARMOR
+    requires:
+        - STR_LASCAN
+
+items:
+  - type: STR_SENTINEL_ARMOR            
+    requiresBuy:
+      - STR_LASCAN

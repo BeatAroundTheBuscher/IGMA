@@ -1,0 +1,271 @@
+# keep the basic indices range reserved in mind
+# https://www.ufopaedia.org/index.php/Ruleset_Vanilla_IDs_(OpenXcom)
+# 
+
+extraSprites:
+  - type: BIGOBS.PCK
+    files:
+      200: Resources/Bigobs/heavy_stubber_light.png
+      201: Resources/Bigobs/heavy_stubber_belt.png
+      202: Resources/Bigobs/light_bolter_ultra.png
+      203: Resources/Bigobs/light_boltpistol_ultra.png
+      204: Resources/Bigobs/grenade_launcher_smoke_drum.png
+      205: Resources/Bigobs/grenade_launcher_photon_drum.png
+      208: Resources/Bigobs/hellpistol.png # offset doesn't matter but I want it to be consistent with handobs
+      209: Resources/Bigobs/hellpistol_purple.png # offset + 1 does matter for ITEM_CHANGES_SPRITE_WITH_ARMOR
+      210: Resources/Bigobs/imperial_assassin_bigobs.gif # from XPiratez: MRC_3_b
+      211: Resources/Bigobs/mastercrafted_laspistol.png # added a change so hotshot ammo is visible
+      212: Resources/Bigobs/heavy_stubber.png
+      213: Resources/Bigobs/heavy_stubber_deployed.png
+      214: Resources/Bigobs/mastercrafted_lasgun.png
+
+      220: Resources/Bigobs/null_sentinel_backpack_missile_with_ammo.png
+      221: Resources/Bigobs/sentinel_multilaser.png
+      224: Resources/Bigobs/exitus_purple.png
+      225: Resources/Bigobs/Exitus_bullets_standard.png
+      226: Resources/Bigobs/Exitus_bullets_hellfire.png
+      227: Resources/Bigobs/Exitus_bullets_turbo_penetrator.png
+      228: Resources/Bigobs/Exitus_bullets_shell_breaker.png
+      232: Resources/Bigobs/chainsword_guardofficer.png # by Leflair
+      240: Resources/Bigobs/airstrike_vox.png
+      241: Resources/Bigobs/airstrike_mission.png
+      250: Resources/Bigobs/Null_Void_2x3.png
+
+
+  - type: HANDOB.PCK
+    height: 40
+    width: 256
+    subX: 32
+    subY: 40
+    files:
+      # each (8) direction takes one index? Yes, it does. Meridian also said that.
+      200: Resources/Handobs/handheld_heavy_stubber_ig.png
+      208: Resources/Handobs/hellpistol.png # 552.png
+      216: Resources/Handobs/hellpistol_blue.png # actually grey 544.png # index + 8 but needed for ITEM_CHANGES_SPRITE_WITH_ARMOR
+      224: Resources/Handobs/handobs_exitus.png
+      232: Resources/Handobs/handobs_chainsword_guardofficer.png # based on Leflair's bigobs
+      240: Resources/Handobs/HandOb_Scanner.gif # ivandogovich
+      
+
+  - type: FLOOROB.PCK
+    files:
+      200: Resources/Floorobs/floorob_handheld_heavy_stubber_ig.png
+      210: Resources/Floorobs/imperial_assassin_floorob.gif # from XPiratez
+      232: Resources/Floorobs/floorob_chainsword_guardofficer.png # based on Leflair's bigobs
+
+
+  - type: SPICONS.DAT
+    files:
+      200: Resources/Spicons/spicon_vox_buff.png
+
+  - type: INTICON.PCK 
+    files:
+      200: Resources/Crafts/Vulture_minimised.png # + 11 # + 33      
+      211: Resources/Crafts/Vulture_dogfight.png    
+
+  - type: GlobeMarkers
+    width: 252
+    height: 14
+    subX: 7
+    subY: 7
+    files:
+      9: Resources/Geo/globe_ufo_new.png
+
+  - type: SMOKE.PCK
+    width: 192
+    height: 160
+    subX: 32
+    subY: 40
+    files:
+      100: Resources/Ranks/ranks_battlescape.png
+
+  - type: TinyRanks
+    width: 42
+    height: 28
+    subX: 7
+    subY: 7
+    files:
+      100: Resources/Ranks/ranks_tiny.png
+
+  - type: BASEBITS.PCK 
+    files:
+      233: Resources/Crafts/Vulture_base2.png 
+      700: Resources/Basebits/OUT_HYPER1.png          #Facility
+      701: Resources/Basebits/OUT_HYPER2.png        #Facility
+      702: Resources/Basebits/OUT_HYPER3.png          #Facility
+      703: Resources/Basebits/OUT_HYPER4.png    #Facility
+      704: Resources/Basebits/OUT_HYPER5.png         #Facility
+      705: Resources/Basebits/OUT_HYPER6.png          #Facility
+      706: Resources/Basebits/OUT_HYPER7.png       #Facility
+      707: Resources/Basebits/OUT_HYPER8.png          #Facility
+      708: Resources/Basebits/OUT_HYPER9.png      #Facility
+      709: Resources/Basebits/OUT_HYPER10.png
+      710: Resources/Basebits/OUT_HYPER11.png
+      711: Resources/Basebits/OUT_HYPER12.png
+      712: Resources/Basebits/OUT_HYPER13.png
+      713: Resources/Basebits/OUT_HYPER14.png
+      714: Resources/Basebits/OUT_HYPER15.png
+      715: Resources/Basebits/OUT_HYPER16.png
+      716: Resources/Basebits/C1.gif #aaaaaaaaaaaaaaaaaaaahhhhhhhhhh
+      717: Resources/Basebits/C2.gif
+      718: Resources/Basebits/C2.gif
+      719: Resources/Basebits/C3.gif
+      720: Resources/Basebits/C4.gif
+      721: Resources/Basebits/C5.gif
+      722: Resources/Basebits/C5.gif
+      723: Resources/Basebits/C6.gif
+      724: Resources/Basebits/C4.gif
+      725: Resources/Basebits/C5.gif
+      726: Resources/Basebits/C5.gif
+      727: Resources/Basebits/C6.gif
+      728: Resources/Basebits/C7.gif
+      729: Resources/Basebits/C8.gif
+      730: Resources/Basebits/C8.gif
+      731: Resources/Basebits/C9.gif
+      740: Resources/Basebits/OUT_TEMP_STORE.png 
+
+
+  - type: 07_TEMP.SPK #base2
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Basebits/07_TEMP.png
+
+  - type: 042_HYPER.SPK #base2
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Basebits/042_HYPER.png
+
+
+  - type: CustomArmorPreviews
+    width: 360
+    height: 60
+    subX: 12
+    subY: 20
+    files:
+      #0: Resources_IG/UnitSprites/unit_preview.png
+      500: Resources/UnitSprites/armor_previews_guard.png
+
+  - type: IGMA_PRIEST.PCK
+    width: 256
+    height: 520
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/UnitSprites/priest.png
+
+  - type: IGMA_IMPERIAL_ASSASSIN.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/UnitSprites/imperial_assassin.png
+
+  - typeSingle: VETERAN_OFFICER_CARAPACE__8__Stripes_Female
+    fileSingle: Resources/UnitSprites/Armors/Veteran_Officer_Carapace_Female.png
+
+  # THIRD PARTY BEGIN
+  # https://warhammer40k.fandom.com/wiki/Adeptus_Ministorum#The_Imperial_Creed
+  - typeSingle: PRIEST.SPK
+    fileSingle: Resources/Pedia/priest.png
+  # https://warhammer40k.fandom.com/wiki/Vindicare_Temple?file=Vindicare_Assassin_Takes_Aim.jpg
+  - typeSingle: VINDICARE.SPK
+    fileSingle: Resources/Pedia/vindicare.png
+  # https://warhammer40k.fandom.com/wiki/Elysian_Drop_Troops?file=Elysian_Drop_Troops_grav-chute.jpg
+  - typeSingle: ELYSIAN.SPK
+    fileSingle: Resources/Pedia/elysian.png
+  # THIRD PARTY END
+
+  - type: VINDICAREINV.SPK #MONK INV
+    singleImage: true
+    files:
+      0: Resources/UnitSprites/Armors/imperial_assassin_inventory.png
+
+
+# based on ruleset of Advanced Carapace for Others
+
+  - type: STORMTROOPER_CARAPACE_OFFICER.PCK
+    width: 512
+    height: 760
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/UnitSprites/stormtrooper_officer_carapace.png
+
+  - type: STORMTROOPER_CARAPACE_MEDIC.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/UnitSprites/stormtrooper_medic_carapace.png
+
+  - typeSingle: VETERAN_OFFICER_CARAPACE__8__Stripes_Female
+    fileSingle: Resources/UnitSprites/Armors/Veteran_Officer_Carapace_Female.png
+
+  - typeSingle: VETERAN_OFFICER_CARAPACE__8__Stripes_Male
+    fileSingle: Resources/UnitSprites/Armors/Veteran_Officer_Carapace_Male.png
+
+  - typeSingle: VETERAN_MEDIC_CARAPACE__6__Medic_Female
+    fileSingle: Resources/UnitSprites/Armors/Veteran_Medic_Carapace_Female.png
+
+  - typeSingle: VETERAN_MEDIC_CARAPACE__6__Medic_Male
+    fileSingle: Resources/UnitSprites/Armors/Veteran_Medic_Carapace_Male.png
+
+  - type: SCION_CARAPACE_MEDIC.PCK
+    width: 512
+    height: 760
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/UnitSprites/tempestus_scion_medic.png
+
+  - type: SCION_CARAPACE_OFFICER.PCK
+    width: 512
+    height: 760
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/UnitSprites/tempestus_scion_officer.png
+
+  - typeSingle: SCION_OFFICER_CARAPACE__8__Stripes_Female
+    fileSingle: Resources/UnitSprites/Armors/Scion_Officer_Carapace_Female.png
+
+  - typeSingle: SCION_OFFICER_CARAPACE__8__Stripes_Male
+    fileSingle: Resources/UnitSprites/Armors/Scion_Officer_Carapace_Male.png
+    
+
+  - typeSingle: SCIONMEDIC__6__Medic_Female
+    fileSingle: Resources/UnitSprites/Armors/Scion_Medic_Female.png
+
+  - typeSingle: SCIONMEDIC__6__Medic_Male
+    fileSingle: Resources/UnitSprites/Armors/Scion_Medic_Male.png
+
+
+  - type: IGMA_ELYSIAN_JUMP.PCK
+    width: 512
+    height: 960
+    subX: 32 # 8*32 = 240+12 = 252
+    subY: 40
+    files:
+#      0: Resources/jump_carapace1.png
+      0: Resources/UnitSprites/elysian_jumptrooper.png
+
+  - type: IGMA_ELYSIAN_JUMP_MEDIC.PCK
+    width: 512
+    height: 960
+    subX: 32 # 8*32 = 240+12 = 252
+    subY: 40
+    files:
+#      0: Resources/jump_carapace1.png
+      0: Resources/UnitSprites/elysian_jumptrooper_medic.png
+
+  - typeSingle: ELYSIAN__4__Male
+    fileSingle: Resources/UnitSprites/Armors/elysian_jumptrooper_Male.png
+
+  - typeSingle: ELYSIAN__4__Female
+    fileSingle: Resources/UnitSprites/Armors/elysian_jumptrooper_Female.png

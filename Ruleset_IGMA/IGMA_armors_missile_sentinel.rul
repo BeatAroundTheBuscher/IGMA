@@ -1,0 +1,58 @@
+# it's more work than it's worth it
+#invs:
+#  - id: STR_SENTINELS_INV_SLOT
+#    x: 100
+#    y: 100
+#    type: 0
+#    slots:
+#      - [0, 0]
+#      - [0, 1]
+#      - [1, 0]
+#      - [1, 1]
+
+extraStrings:
+  - type: en-US
+    strings:
+      STR_GUARD_ARMORS_SENTINEL_MISSILE_UC_UFOPEDIA: "The Sentinel is a one-man all-terrain bipedal vehicle, deploying firepower in enivornments that would immobilize heavier vehicles. Marching alongside the Imperial Guard, they are effective scouts and fire support platforms.{NEWLINE}Weapon: Missile Pod w/ Ammo Bay{NEWLINE}Ammo: Frag/Krak Missile Pack"
+
+armors:
+  - type: STR_GUARD_ARMORS_SENTINEL_MISSILE_UC
+    builtInWeapons:
+      - STR_SENTINEL_MISSILE_LAUNCHER
+      - AUX_SENTINEL_STOMP #INV_NULL_SENTINEL_LH
+      - INV_NULL_SENTINEL_BACK_MISSILE
+      - INV_NULL_SENTINEL_BELT
+      - INV_NULL_SENTINEL_LL
+      - INV_NULL_2X1_RL
+      - INV_NULL_1X2_BACKPACK # doesn't work so well
+
+items:
+  # no idea why there need to be two different weapons
+  - &STR_SENTINEL_MISSILE
+    type: STR_SENTINEL_MISSILE_LAUNCHER
+    compatibleAmmo:
+      - STR_SENTINEL_FRAG_MISSILES
+      - STR_SENTINEL_KRAKK_MISSILES
+      - STR_SENTINEL_FRAG_MISSILES_PD
+      - STR_SENTINEL_KRAKK_MISSILES_PD
+
+
+  - type: STR_SENTINELPD_MISSILE_LAUNCHER
+    refNode: *STR_SENTINEL_MISSILE
+
+
+  - type: INV_NULL_SENTINEL_BACK_MISSILE
+    bigSprite: 220
+    invWidth: 3
+    invHeight: 1
+
+  - type: INV_NULL_1X2_BACKPACK
+    weight: 0
+    bigSprite: 208 # {mod: 40k, index: 824}
+    invWidth: 1
+    invHeight: 2
+    fixedWeapon: true
+    defaultInventorySlot: STR_BACK_PACK
+    defaultInvSlotX: 0
+    defaultInvSlotY: 1
+    recover: false

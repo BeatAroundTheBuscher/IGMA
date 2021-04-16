@@ -1,0 +1,89 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_OFFICERS_CHAIN_SWORD: "Officer's Chainsword"
+      STR_OFFICERS_CHAIN_SWORD_UFOPAEDIA: "{NEWLINE} A symbol of their exemplary service to the Imperium, an officer's sword represents the iron will of the one wielding it. Those with great courage and influence can inspire their troops to perform great acts of heroism.{NEWLINE}{NEWLINE}Strength required: {ALT}20"
+
+ufopaedia:
+  - id: STR_OFFICERS_CHAIN_SWORD
+    requires:
+      - STR_IMPERIAL_GUARD_OPERATIONS
+      - STR_MIDTIER_PREREQ
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    image_id: 1CS.SPK
+    text: STR_OFFICERS_CHAIN_SWORD_UFOPAEDIA
+    listOrder: 12960
+
+items:
+# more meaty sound
+  - type: STR_OFFICERS_SWORD
+    meleeSound: {mod: 40k, index: 754} # was nothing
+    meleeHitSound: {mod: 40k, index: 773} # was 101
+    meleeAnimation: {mod: 40k, index: 4} # was 0
+
+# Worked together with Tal'Raziid
+  - type: STR_OFFICERS_CHAIN_SWORD
+    categories: [STR_CAT_MELEE]
+    size: 0.2
+    costSell: 3750
+    weight: 10
+    bigSprite: 232
+    floorSprite: 232
+    handSprite: 232
+    explosionHitSound: [{mod: 40k, index: 1110}, {mod: 40k, index: 1111}, {mod: 40k, index: 1112}, {mod: 40k, index: 1113}, {mod: 40k, index: 1114}, {mod: 40k, index: 1115}, {mod: 40k, index: 1116}, {mod: 40k, index: 1117}, {mod: 40k, index: 1118}, {mod: 40k, index: 1119}, {mod: 40k, index: 1120}, {mod: 40k, index: 1121}]
+    hitAnimation: {mod: 40k, index: 96}
+    power: 0
+    damageBonus:
+      bravery: 0.25
+      rank: [0.0, 2.5]
+    damageType: 6
+    damageAlter:
+      ResistType: 10
+      RandomType: 3
+      ArmorEffectiveness: 0.0
+      ToStun: 0.1
+      ToMorale: -1.00
+      ToTime: -1.00
+      ToHealth: 0.0
+      ToWound: 0.0
+      RadiusReduction: 0.0
+      FixRadius: 3
+    confAimed:
+      name: STR_INSPIRE
+    costAimed:
+      time: 60
+      energy: 75
+      morale: 15
+    flatAimed:
+      time: true
+    accuracyAimed: 100
+    accuracyMultiplier:
+      firing: 0.0
+      bravery: 1.4
+      rank: [0.0, 2.0]
+    arcingShot: true
+    maxRange: 12
+    bulletSpeed: 80
+    experienceTrainingMode: 19
+    meleeSound: {mod: 40k, index: 753} #753 Powerswrod miss
+    meleeHitSound: {mod: 40k, index: 709} #709 chainhit
+    meleeAnimation: {mod: 40k, index: 44}
+    meleePower: 80 # flat damage or does damageBonus for Inspire also count?
+    meleeType: 7
+    accuracyMelee: 100
+    meleeMultiplier:
+      flatHundred: 0.0
+      melee: 1.0 # accuracy 
+    tuMelee: 12
+    flatMelee: true
+    clipSize: -1
+    battleType: 1
+    twoHanded: false
+    invWidth: 1
+    invHeight: 3
+    armor: 30
+    listOrder: 12960
+    tags:
+      ITEM_STRENGTH_REQUIREMENT: 20
+

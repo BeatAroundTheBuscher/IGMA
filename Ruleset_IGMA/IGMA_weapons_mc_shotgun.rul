@@ -1,0 +1,12 @@
+# added mastercrafted shells
+items:
+  - type: STR_MCSHOTGUN 
+    compatibleAmmo:
+      - STR_SHOTGUN_SHELLS
+      - STR_SHOTGUN_SHELLS_MC
+
+# make MC shells available to everyone
+manufacture:
+  - name: STR_SHOTGUN_SHELLS_MC
+    requires:
+      - STR_MASTER_CRAFTING_AMMO

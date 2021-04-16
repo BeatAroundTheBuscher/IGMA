@@ -1,0 +1,28 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_AIRSTRIKE_MANUFACTURE: "Requisition Airstrike Laser Designator"
+      STR_AIRSTRIKE_AMMO_MANUFACTURE: "Requisition Airstrike"
+
+manufacture:
+  - name: STR_AIRSTRIKE_MANUFACTURE
+    category: STR_WEAPON
+    requires:
+      - STR_AIRSTRIKE_REQUISITION
+    space: 0
+    time: 500
+    cost: 200000
+    requiredItems:
+      STR_ALIEN_HABITAT: 2
+    producedItems:
+      STR_AIRSTRIKE_VOX: 1
+
+  - name: STR_AIRSTRIKE_AMMO_MANUFACTURE
+    category: STR_AMMUNITION
+    requires:
+      - STR_AIRSTRIKE_REQUISITION
+    space: 0
+    time: 100
+    cost: 50000
+    producedItems:
+      STR_AIRSTRIKE_AMMO: 1   

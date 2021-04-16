@@ -1,0 +1,7 @@
+name: "Imperial Guard Mini Addon"
+version: "0.292"
+author: "Buscher"
+description: "Slightly rebalance Armors and Items; add Multilaser Sentinel and Veteran Officers"
+id: "40k_IG_Mini_Addon"
+master: "40k"
+reservedSpace: 1
