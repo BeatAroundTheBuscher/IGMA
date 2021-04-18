@@ -224,9 +224,7 @@ soldiers:
     armor: STR_PENAL_ARMOR_BROWN_UC
     allowPiloting: false
     allowPromotion: false
-    standHeight: 22
-    kneelHeight: 14
-    femaleFrequency: 50
+    standHeight: 22      
     avatarOffsetX: 66
     avatarOffsetY: 42
     soldierNames:
