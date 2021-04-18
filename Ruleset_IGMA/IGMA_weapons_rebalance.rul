@@ -25,3 +25,25 @@ items:
   - type: STR_HELLGUN
     tuAuto: 33 # was 34
   
+  - type: STR_MOUNTED_LASCANNON # gets 150 % accuracy and 75 % TU cost for being mounted
+    accuracySnap: 90 # was 60 # handheld has 60
+    accuracyAimed: 155 # was 94 # handheld has 105
+    tuSnap: 40 # was 55 # handheld has 55
+    tuAimed: 70 # was 90 # handheld has 90
+
+  - type: STR_AUTOCANNON_GUARD # gets 150 % accuracy and 75 % TU cost for being mounted
+    accuracyAuto: 90 # was 75 # handheld has 60
+    tuAuto: 35 # was 45 # handheld has 45
+
+# Guard sentinel has lower damage; on the other hand it's mobile and doesn't need ammo
+  - type: STR_SLASCAN
+    power: 150 # was 100 # wanted 200 (see reason above for not)
+
+  - type: STR_AUTOGUN
+    experienceTrainingMode: 4
+
+  - type: STR_AUTOPISTOL
+    experienceTrainingMode: 4
+
+  - type: STR_FLAMETHROWER
+    arcingShot: true

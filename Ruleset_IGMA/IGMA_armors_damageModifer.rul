@@ -1,0 +1,161 @@
+armors:
+  - &STR_GUARD_NORMAL
+    type: STR_ELYSIAN_JUMP_ARMOR
+    damageModifier: #GUARD ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 1.2 #FLAMES
+      - 1.0 #HE
+      - 0.8 #LASCANON
+      - 1.0 #PLASMA
+      - 1.0 #STUN
+      - 1.1 #MELEE
+      - 1.0 #ACID
+      - 0.0 #SMOKE
+      - 1.0 #IMPACT
+      - 1.0 #MELTA
+
+  - type: STR_ELYSIAN_JUMP_MEDIC_ARMOR
+    refNode: *STR_GUARD_NORMAL
+
+#  - type: STR_GUARD_ARMORP_UC
+#    refNode: *STR_GUARD_NORMAL
+
+#  - type: STR_GUARD_ARMORS_MEDIC_UC
+#    refNode: *STR_GUARD_NORMAL
+
+  - &STR_GUARD_MOUNTED
+    type: STR_GUARD_ARMORS_MOUNTED_HEAVY_BOLTER_UC
+    damageModifier: #VEHICLE ARMOR LARGE
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.8 #FLAMES
+      - 1.0 #HE
+      - 1.4 #LASCANON
+      - 1.0 #PLASMA
+      - 0.9 #STUN
+      - 0.8 #MELEE
+      - 1.0 #ACID
+      - 1.0 #SMOKE
+      - 0.0 #IMPACT
+      - 1.2 #MELTA
+
+  - type: STR_GUARD_ARMORS_PRIEST_UC
+    refNode: *STR_GUARD_NORMAL
+
+#  - type: STR_GUARD_ARMORS_SENTINEL_AUTOCANNON_UC
+#    refNode: *STR_GUARD_VEHICLE
+
+#  - type: STR_GUARD_ARMORS_SENTINEL_HEAVY_FLAMER_UC
+#    refNode: *STR_GUARD_VEHICLE
+
+  - &STR_GUARD_VEHICLE
+  - type: STR_GUARD_ARMORS_SENTINEL_HEAVY_PLASMA_UC
+    damageModifier: #VEHICLE ARMOR LARGE
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.4 #FLAMES
+      - 1.0 #HE
+      - 1.4 #LASCANON
+      - 1.0 #PLASMA
+      - 0.0 #STUN
+      - 0.8 #MELEE
+      - 1.0 #ACID
+      - 0.0 #SMOKE
+      - 0.0 #IMPACT
+      - 1.2 #MELTA
+
+#  - type: STR_GUARD_ARMORS_SENTINEL_MISSILE_UC
+#    refNode: *STR_GUARD_VEHICLE
+
+  - type: STR_GUARD_ARMORS_SENTINEL_MULTILASER_UC
+    refNode: *STR_GUARD_VEHICLE
+
+#  - type: STR_GUARD_ARMORS_SENTINEL_MULTIMELTA_UC
+#    refNode: *STR_GUARD_VEHICLE
+
+  - &STR_GUARD_NORMAL_LONE_WOLF
+    type: STR_GUARD_IMPERIAL_ASSASSIN_UC #DR10 SPACE MARINE SUPORT
+    damageModifier: #GUARD ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 1.2 #FLAMES
+      - 1.0 #HE
+      - 0.8 #LASCANON
+      - 1.0 #PLASMA
+      - 1.0 #STUN
+      - 1.1 #MELEE
+      - 1.0 #ACID
+      - 0.0 #SMOKE
+      - 0.0 #IMPACT # IMPACT for IG is used for buffing
+      - 1.0 #MELTA
+
+  - type: STR_GUARD_KRIEG_ARMOR
+    refNode: *STR_GUARD_NORMAL
+
+#  - type: STR_MEDIC_CARAPACE_ARMOR
+#    refNode: *STR_GUARD_NORMAL
+
+#  - type: STR_OFFICER_CARAPACE_ARMOR
+#    refNode: *STR_GUARD_NORMAL
+
+#  - type: STR_OFFICER_CARAPACE_ARMOR_NOAIRSTRIKE
+#    refNode: *STR_GUARD_NORMAL
+
+#  - type: STR_OFFICER_FLAK_ARMOR
+#    refNode: *STR_GUARD_NORMAL
+
+#  - type: STR_OFFICER_FLAK_ARMOR_NOAIRSTRIKE
+#    refNode: *STR_GUARD_NORMAL
+
+  - type: STR_PENAL_ARMOR_BROWN_UC 
+    refNode: *STR_GUARD_NORMAL_LONE_WOLF
+
+  - type: STR_SCION_CARAPACE_ARMOR_HELLPISTOL
+    refNode: *STR_GUARD_NORMAL
+
+  - type: STR_SCION_CARAPACE_OFFICER_ARMOR_HELLPISTOL
+    refNode: *STR_GUARD_NORMAL
+
+  - type: STR_SCION_MEDIC_CARAPACE_ARMOR
+    refNode: *STR_GUARD_NORMAL
+
+  - type: STR_SCION_OFFICER_CARAPACE_ARMOR
+    refNode: *STR_GUARD_NORMAL
+
+  - type: STR_SCION_OFFICER_CARAPACE_ARMOR_HELLGUN
+    refNode: *STR_GUARD_NORMAL
+
+  - type: STR_SCION_OFFICER_CARAPACE_ARMOR_VOLLEYGUN
+    refNode: *STR_GUARD_NORMAL
+
+#  - type: STR_SENTINEL_ARMOR_UC            #SENTINEL
+#    refNode: *STR_GUARD_VEHICLE
+
+#  - type: STR_STORMTROOPER_CARAPACE_ARMOR
+#    refNode: *STR_GUARD_NORMAL
+
+#  - type: STR_STORMTROOPER_CARAPACE_ARMOR_HELLGUN
+#    refNode: *STR_GUARD_NORMAL
+  - type: STR_STORMTROOPER_CARAPACE_ARMOR_HELLPISTOL
+    refNode: *STR_GUARD_NORMAL
+#  - type: STR_STORMTROOPER_CARAPACE_ARMOR_VOLLEYGUN
+#    refNode: *STR_GUARD_NORMAL
+
+  - type: STR_STORMTROOPER_CARAPACE_OFFICER_ARMOR_HELLPISTOL
+    refNode: *STR_GUARD_NORMAL
+
+  - type: STR_STORMTROOPER_MEDIC_CARAPACE_ARMOR
+    refNode: *STR_GUARD_NORMAL
+
+  - type: STR_STORMTROOPER_OFFICER_CARAPACE_ARMOR
+    refNode: *STR_GUARD_NORMAL
+
+  - type: STR_STORMTROOPER_OFFICER_CARAPACE_ARMOR_HELLGUN
+    refNode: *STR_GUARD_NORMAL
+
+  - type: STR_STORMTROOPER_OFFICER_CARAPACE_ARMOR_VOLLEYGUN
+    refNode: *STR_GUARD_NORMAL
+
+
+

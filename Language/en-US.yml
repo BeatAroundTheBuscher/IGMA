@@ -1,0 +1,179 @@
+en-US:
+  STR_ELYSIAN_JUMP_ARMOR_REQUISITION: "Elysian Jump Armor Requisition"
+  STR_ELYSIAN_JUMP_ARMOR: "Elysian Jump Armor"
+  STR_ELYSIAN_JUMP_MEDIC_ARMOR: "Elysian Jump Armor/Medic"
+  STR_ELYSIAN_JUMP_ARMOR_UFOPAEDIA: "The Elysian Jump Armor includes a modified version of the Grav-Chute which is commonly used for Drop Troops. With better boosters and energy supply this armor allows our men to fly. This armor includes Ceramite elements."
+  STR_ELYSIAN_JUMP_MEDIC_ARMOR_UFOPAEDIA: "The Elysian Jump Armor includes a modified version of the Grav-Chute which is commonly used for Drop Troops. With better boosters and energy supply this armor allows our men to fly. This armor includes Ceramite elements. {NEWLINE} This armor is equipped with a medi-kit."
+
+  STR_GUARD_IMPERIAL_ASSASSIN_RANK_0: "Vindicare Assassin"
+  STR_GUARD_IMPERIAL_ASSASSIN: "Vindicare Assassin"
+  STR_GUARD_IMPERIAL_ASSASSIN_UC: "Vindicare Assassin"
+  # STR_GUARD_IMPERIAL_ASSASSIN_UC_UFOPEDIA: "The Assassin of the Vindicare Temple is a master marksman trained for neutralizing high priority targets at long ranges. Equipped with the Exitus Rifle capable of loading different kind of ammunition the Vindicare Assassin can destroy any kind of high value objectives."
+  # Ticker175
+  # STR_GUARD_IMPERIAL_ASSASSIN_UC_UFOPEDIA: "A Vindicare assassin is one of the deadliest individuals in the imperium, capable of eliminating targets at incredible range. Their weapons of choice include an Exitus Rifle which is among the most advanced weapons of the 41st millennium capable of loading a wide array of speciality ammunition allowing the assassin to overcome any obstacles they may encounter."
+  # slight edits to fit into the space
+  STR_GUARD_IMPERIAL_ASSASSIN_UC_UFOPEDIA: "A Vindicare Assassin is one of the deadliest individuals in the imperium, capable of eliminating targets at incredible range. Their weapons of choice include an Exitus Rifle which is among the most advanced weapons allowing the assassin to overcome any obstacles they may encounter."
+  STR_GUARD_IMPERIAL_ASSASSIN_REQUISITION: "Vindicare Assassin Requisition"
+  STR_EXITUS_BUILTIN: "Exitus Rifle"
+  # STR_EXITUS_BUILTIN_UFOPEDIA: "{NEWLINE} A Sniper Rifle with a high-powered and highly accurate projectile weapon with unerring accuracy. {NEWLINE}Ammo types: {NEWLINE}- Standard{NEWLINE}- Hellfire (Explosive){NEWLINE}- Turbo-Penetrator (AP){NEWLINE}- Shell Breaker (Shield Piercing){NEWLINE}{NEWLINE}Unload with shift left-click"
+  # Ticker175
+  STR_EXITUS_BUILTIN_UFOPEDIA: "{NEWLINE} The Exitus Rifle is a weapon of unmatched precision allowing a Vindicare assassin to preform their tasks with deadly efficiency. It supports the use of specialised ammunition: {NEWLINE}{NEWLINE}- Standard{NEWLINE}- Hellfire (Explosive){NEWLINE}- Turbo-Penetrator (AP){NEWLINE}- Shell Breaker (Shield Piercing){NEWLINE}[Unload with shift left-click]"
+  STR_EXITUS_AMMO: "Exitus Bullets"
+  STR_EXITUS_AMMO_HELLFIRE: "Exitus Hellfire Bullets"
+  STR_EXITUS_AMMO_TURBOPENETRATOR: "Exitus Turbo-Penetrator Bullets"
+  STR_EXITUS_AMMO_SHELLBREAKER: "Exitus Shell-Breaker Bullets"
+
+  STR_GUARD_ARMORS_SENTINEL_MISSILE_UC_UFOPEDIA: "The Sentinel is a one-man all-terrain bipedal vehicle, deploying firepower in enivornments that would immobilize heavier vehicles. Marching alongside the Imperial Guard, they are effective scouts and fire support platforms.{NEWLINE}Weapon: Missile Pod w/ Ammo Bay{NEWLINE}Ammo: Frag/Krak Missile Pack"
+
+  STR_MULTI_LASER_SENTINEL: "Sentinel Multilaser"
+  STR_GUARD_ARMORS_SENTINEL_MULTILASER: "Sentinel/Multilaser"
+  STR_GUARD_ARMORS_SENTINEL_MULTILASER_UC: "Sentinel/Multilaser"
+  STR_GUARD_ARMORS_SENTINEL_MULTILASER_UC_UFOPEDIA: "The Sentinel is a one-man all-terrain bipedal vehicle, deploying firepower in enivornments that would immobilize heavier vehicles. Marching alongside the Imperial Guard, they are effective scouts and fire support platforms.{NEWLINE}Weapon: Multilaser"
+
+  STR_GUARD_ARMORS_PRIEST: "Priest Robe"
+  STR_GUARD_ARMORS_PRIEST_UC: "Priest Robe"
+  # STR_GUARD_ARMORS_PRIEST_UC_UFOPEDIA: "Priests of the Ecclesiarchy are often dispatched to accompany the Imperial Guard. They can inspire the men and women of the Imperial Guard to perform greater melee prowess."
+  # Ticker175
+  STR_GUARD_ARMORS_PRIEST_UC_UFOPEDIA: "Priests of the Ecclesiarchy are often dispatched to accompany the soldiers of the Imperial Guard. They inspire the men and women of the guard and increase their martial prowess."
+  STR_GUARD_PRIEST_REQUISITION: "Priest Requisition"
+
+  STR_MEDIC_CARAPACE_ARMOR_UFOPEDIA: "Carapace Armor consists of a series of rigid plates, molded from either Armorplas or Ceramite. It provides better protection than Flak armor, and is used extensively by Stormtroopers. {NEWLINE} This armor is equipped with a medi-kit."
+
+  STR_STORMTROOPER_OFFICER_CARAPACE_ARMOR: "Adv. Officer Carapace"
+  STR_STORMTROOPER_OFFICER_CARAPACE_ARMOR_HELLGUN: "Adv. Off. Carapace/Hellgun"
+  STR_STORMTROOPER_OFFICER_CARAPACE_ARMOR_VOLLEYGUN: "Adv. Off. Carapace/Volleygun"
+  STR_STORMTROOPER_CARAPACE_ARMOR_HELLPISTOL: "Adv. Carapace/Hellpistol"
+  STR_STORMTROOPER_OFFICER_CARAPACE_ARMOR_HELLPISTOL: "Adv. Off. Carapace/Hellpistol" # inconsistent, oops
+  STR_STORMTROOPER_MEDIC_CARAPACE_ARMOR: "Adv. Carapace/Medic"
+
+  STR_SCION_OFFICER_CARAPACE_ARMOR: "Scion Officer Carapace"
+  STR_SCION_OFFICER_CARAPACE_ARMOR_HELLGUN: "Scion Off. Carapace/Hellgun"
+  STR_SCION_OFFICER_CARAPACE_ARMOR_VOLLEYGUN: "Scion Off. Carapace/Volleygun"
+  STR_SCION_CARAPACE_ARMOR_HELLPISTOL: "Scion Carapace/Hellpistol"
+  STR_SCION_OFFICER_CARAPACE_ARMOR_HELLPISTOL: "Scion Off. Carapace/Hellpistol"  # inconsistent, oops
+  STR_SCION_MEDIC_CARAPACE_ARMOR: "Scion Carapace/Medic"
+
+  STR_OUTPOST_TEMP_STORAGE: "Temporary Storage"
+  STR_OUTPOST_TEMP_STORAGE_UFOPEDIA: "{NEWLINE} This temporary storage is set up to allow upgrading facilities without having to ship all the contents away. It is expected that this facility is only set up for the days necessary for the upgrade. The God Emperor himself will not look kindly on us if this facility stands when the month passes.{NEWLINE}{NEWLINE}[This facility is only required when 'Storage limits for recovered items' is set to 'yes'.]"
+  STR_OUTPOST_GUARD_HYPER: "Outpost w/ Decoder"
+  STR_OUTPOST_GUARD_HYPER_UFOPEDIA: "{NEWLINE} This large facility allows us to accommodate equipment and personnel, with an hangar present and an large detection system featuring a transmission decoder."
+
+  STR_VULTURE_IG: "VULTURE"
+  STR_WEAPON_THREE_GUN: "Weapon III"
+  STR_WEAPON_FOUR_AUX: "AUX System I> {ALT}{0}"
+  STR_VULTURE_IG_REQUISITION: "Vulture Requisition"
+  # STR_VULTURE_IG_UFOPEDIA: "{NEWLINE} The Vulture is very similar in appearance to the Valkyrie, but with a drastically different role on the battlefield. Without needing to transport our men the Vulture has increased speed with its supercharged engine and is capable of carrying a larger variety of weapons."
+  # Ticker175
+  # STR_VULTURE_IG_UFOPEDIA: "{NEWLINE} The Vulture is very similar in appearance to the Valkyrie, but with a drastically different role on the battlefield. As it is not required to transport soldiers to the frontlines the Vulture is capable of a faster speed due to its supercharged engine and is able to carry a greater payload and a larger variety of weapons."
+  # slight edits to fit into space
+  STR_VULTURE_IG_UFOPEDIA: "{NEWLINE} While similar in appearance to the Valkyrie the Vulture has a drastically different role on the battlefield. As it is not required to transport soldiers to the frontlines, the Vulture is capable of a faster speed due to its supercharged engine and is able to carry a greater weapon payload."
+
+  STR_PROMOTE_OFFICER_VETERAN: "Promote Officer to Veteran Officer"
+  STR_PROMOTE_VETERAN_OFFICER: "Promote Veteran to Veteran Officer"
+  STR_PROMOTE_SCION_OFFICER: "Promote Scion to Scion Officer"
+  STR_GUARD_OFFICER_VETERAN: "Veteran Officer" # yes, inconsistent
+  STR_STORMTROOPER_OFFICER: "Scion Officer"
+
+  # unfortunately only three ranks
+  STR_STORMTROOPER_RANK_0: "Trooper"
+  STR_STORMTROOPER_RANK_1: "Trooper"
+  STR_STORMTROOPER_RANK_2: "Tempestor"
+  STR_STORMTROOPER_RANK_3: "Tempestor"
+  # Scion officer only
+  STR_STORMTROOPER_RANK_4: "Tempestor Prime"
+  STR_STORMTROOPER_RANK_5: "Tempestor Prime"
+
+  STR_GUARD_OFFICER_BLESS: "Inspire Firing"
+  STR_OFFICERS_CHAIN_SWORD: "Officer's Chainsword"
+  STR_OFFICERS_CHAIN_SWORD_UFOPAEDIA: "{NEWLINE} A symbol of their exemplary service to the Imperium, an officer's sword represents the iron will of the one wielding it. Those with great courage and influence can inspire their troops to perform great acts of heroism.{NEWLINE}{NEWLINE}Strength required: {ALT}20"
+
+  STR_GUARD_PRIEST_RANK_0: "Priest"
+  STR_GUARD_PRIEST: "Priest"
+  STR_GUARD_PRIEST_BLESS: "Bless Melee"
+
+  STR_AIRSTRIKE_VOX: "Airstrike Laser Designator"
+  STR_AIRSTRIKE_AMMO: "Airstrike"
+  STR_AIRSTRIKE_REQUISITION: "Airstrike Requisition"
+  STR_AIRSTRIKE_UFOPEDIA: "{NEWLINE} This is a laser designator for airstrikes. Each laser designator can guide one laser guided bomb launched by local PDF forces encoded to the designator's frequency per mission. Since providing airstrikes puts a strain on the local PDF forces, air strikes have to be requisitioned beforehand."
+  STR_AIRSTRIKE_MANUFACTURE: "Requisition Airstrike Laser Designator"
+  STR_AIRSTRIKE_AMMO_MANUFACTURE: "Requisition Airstrike"
+
+  STR_UPGRADE_OFFICER_CHAIN_SWORD: "Upgrade to Officer's Chainsword"
+
+  STR_PDF_ASSAULT: "Support PDF Assault"
+
+
+
+  SNAKEMAN_ARMOR0: "Traitor Guardsman"
+  SNAKEMAN_ARMORH: "Traitor Heavy Guardsman"
+
+  STR_SMOKE_GRENADE_DRUM: "Smoke Grenade Drum"
+  STR_PHOTON_GRENADE_DRUM: "Photon Grenade Drum"
+
+  STR_HEAVY_STUBBER_LIGHT: "Heavy Stubber (Handheld)"
+  # STR_HEAVY_STUBBER_LIGHT_UFOPEDIA: "{NEWLINE} This is the handheld version of the Heavy Stubber. By replacing parts with lighter variants it can be used without a bipod, allowing more mobility. On the other hand this means that the fire rate has been reduced to compensate for the recoil.{NEWLINE}{NEWLINE}Recoil: {ALT}30"
+  # Ticker175
+  STR_HEAVY_STUBBER_LIGHT_UFOPEDIA: "{NEWLINE} A handheld variant of the Heavy Stubber. By replacing parts of the widely used pattern with lighter components, the lighter pattern can provide a high volume of fire whilst being a handheld weapon with great mobility. This pattern is not as powerful as the standard variant but will still perform well on the battlefield. {NEWLINE}{NEWLINE}Recoil: {ALT}30"
+  STR_HEAVY_STUBBER_CLIP_MC: "Master Crafted Heavy Stubber Belt"
+
+  STR_HELLPISTOL_BUILTIN: "Hellpistol"
+  STR_HELLPISTOL: "Master Crafted Laspistol"
+  STR_HELLPISTOL_UFOPEDIA: "{NEWLINE} The Hellpistol, or Hot-shot Laspistol, boasts superior range and power output compared to the standard laspistol. Advanced power cells grant the weapon greater performance against armored targets. When coupled to a separate backpack power supply available on advanced suits of carapace armor, the hellpistol can operate for extended periods without reload."
+
+  STR_LIGHT_BOLTER_AMMO_PEN: "Light Kraken Penetrator Clip"
+  STR_LIGHT_BOLTER_AMMO_EX: "Light Metal Storm Frag Clip"
+  STR_LIGHT_BOLTPISTOL_AMMO_AP: "Light Boltpistol Kraken Penetrator Clip"
+  STR_LIGHT_BOLTPISTOL_AMMO_EX: "Light Boltpistol Metal Storm Frag Clip"
+
+  STR_BOLTER_LIGHT_ULTRA: "Light Bolter Ultra Pattern"
+  STR_BOLTPISTOL_LIGHT_ULTRA: "Light Boltpistol Ultra Pattern"
+
+  STR_FRAG_SHOT_TAURUS: "Launch Frag"
+  STR_KRAK_SHOT_TAURUS: "Launch Krak"
+  STR_INC_SHOT_TAURUS: "Launch INC"
+  STR_SMOKE_SHOT_TAURUS: "Launch Smoke"
+  STR_PHOTON_SHOT_TAURUS: "Launch Photon"
+
+  STR_EVISCERATOR_BUILTIN: "Eviscerator"
+
+  STR_KILLPOINT_TOKEN: "Killpoint Token"
+  STR_TURN_KILLTOKENS_IN: "Turn Killpoint Tokens in Badges"
+
+  STR_EXPLOSIVE_COLLAR: "Explosive Collar"
+  STR_PENAL_ARMOR_BROWN_UC: "Penal Clothing"
+  STR_PENITENT_GUARD: "Penitent"
+
+  STR_GUARD_ARMORS_MOUNTED_HEAVY_BOLTER_UC: "Mounted Heavy Bolter"
+  STR_MOUNTED_HEAVY_BOLTER: "Heavy Bolter"
+  STR_GUARD_ARMORS_MOUNTED_HEAVY_BOLTER: "Mounted Heavy Bolter"
+  STR_GUARD_ARMORS_MOUNTED_HEAVY_BOLTER_UFOPEDIA: "The Heavy Bolter is a formidable weapon and makes an effective defensive emplacement when attached to this wheel-m
+ount."
+
+
+  STR_VETERAN_PROMOTION_STATS: "Veteran Guardsman Requirements"
+  STR_VETERAN_PROMOTION_STATS_UFOPEDIA: "{NEWLINE} Required Statistics for Promotion:{NEWLINE}{NEWLINE} 60 TU{NEWLINE} 80 Stamina{NEWLINE} 35 Health{NEWLINE} 60 Bravery{NEWLINE} 50 Reactions{NEWLINE} 80 Firing{NEWLINE} 55 Melee"
+
+  STR_ARMOR_EXTENDED_FRONT: "Extended Front Side"
+  STR_ARMOR_EXTENDED_FRONT_UFOPEDIA: "{NEWLINE} Armors with big hand shields (such as the Bullgryn with Slab Shield) as well as Mounted Guns with front shields (such as the Mounted Lascannon) have an extened front side for determinating hits. This means that oblique fronts hit are considered front hits instead of side hits per chance."
+
+  STR_PILOT_GUARD: Pilot
+  STR_PILOT_RANK_0: Airman
+  STR_PILOT_RANK_1: Ensign
+  STR_PILOT_RANK_2: Second Lieutenant
+  STR_PILOT_RANK_3: First Lieutenant
+  STR_PROMOTE_PILOT_GUARD: "Train Guardsman to Pilot"
+  STR_GUARD_ARMORP_UFOPEDIA: "The basic vest worn by all pilots of the Imperial Guard, this vest provides protection in the cockpit against freezing temperatures high in the atmosphere. On the battle field, pilots will feel exposed as only little protection is available."
+
+  STR_GUARDSM_KRIEG: "Guardsman (Krieg)"
+  STR_KRIEG_SHOVEL: "Shovel (Krieg)"
+  STR_GUARDSMEN_KRIEG_TOKEN: "Krieg Recruitment Token"
+  STR_GUARDSMEN_KRIEG_REQUISITION: "Krieg Guardsmen Requisition"
+  STR_GUARDSMEN_KRIEG_RECRUITING: "Recruiting Krieg Guardsman"
+  STR_GUARD_KRIEG: "Guardsman (Krieg)"
+  STR_GUARD_KRIEG_ARMOR: "Greatcoat (Krieg)"
+  STR_GUARD_KRIEG_ARMOR_UFOPAEDIA: "Guardsman from the Death World Krieg"
+
+  STR_HEAVY_PLASMA_SENTINEL: "Heavy Plasma"
+  STR_GUARD_ARMORS_SENTINEL_HEAVY_PLASMA: "Adv. Sentinel/Heavy Plasma"
+  STR_GUARD_ARMORS_SENTINEL_HEAVY_PLASMA_UC: "Adv. Sentinel/Heavy Plasma"
+  STR_GUARD_ARMORS_SENTINEL_HEAVY_PLASMA_UC_UFOPEDIA: "The Sentinel is a one-man all-terrain bipedal vehicle, deploying firepower in enivornments that would immobilize heavier vehicles. Marching alongside the Imperial Guard, they are effective scouts and fire support platforms.{NEWLINE}Weapon: Heavy Plasma"

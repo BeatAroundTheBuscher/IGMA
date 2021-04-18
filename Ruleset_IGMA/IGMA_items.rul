@@ -1,0 +1,90 @@
+items:
+  - type: INV_NULL_2X3_BACKPACK
+    weight: 0
+    bigSprite: 250
+    invWidth: 1
+    invHeight: 2
+    fixedWeapon: true
+    defaultInventorySlot: STR_BACK_PACK
+    defaultInvSlotX: 0
+    defaultInvSlotY: 0
+    recover: false
+  
+  - type: STR_ELYSIAN_JUMP_ARMOR
+    size: 0.3
+    #listOrder: 20
+    #costBuy: 20000
+    costSell: 8000
+    transferTime: 10
+    listOrder: 7230
+
+  - type: STR_GUARD_IMPERIAL_ASSASSIN_CORPSE
+    name: STR_CORPSE
+    weight: 20
+    bigSprite: 210
+    floorSprite: 210
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 20
+    recover: false
+
+  - type: STR_GUARD_KRIEG_CORPSE
+    name: STR_CORPSE
+    weight: 20
+    bigSprite: 215
+    floorSprite: 215
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 20
+    recover: false
+
+  # no idea why there need to be two different weapons
+  - &STR_SENTINEL_MISSILE
+    type: STR_SENTINEL_MISSILE_LAUNCHER
+    compatibleAmmo:
+      - STR_SENTINEL_FRAG_MISSILES
+      - STR_SENTINEL_KRAKK_MISSILES
+      - STR_SENTINEL_FRAG_MISSILES_PD
+      - STR_SENTINEL_KRAKK_MISSILES_PD
+
+  - type: STR_SENTINELPD_MISSILE_LAUNCHER
+    refNode: *STR_SENTINEL_MISSILE
+
+  - type: INV_NULL_SENTINEL_BACK_MISSILE
+    bigSprite: 220
+    invWidth: 3
+    invHeight: 1
+
+  - type: INV_NULL_1X2_BACKPACK
+    weight: 0
+    bigSprite: 208 # {mod: 40k, index: 824}
+    invWidth: 1
+    invHeight: 2
+    fixedWeapon: true
+    defaultInventorySlot: STR_BACK_PACK
+    defaultInvSlotX: 0
+    defaultInvSlotY: 1
+    recover: false
+
+  - type: STR_GUARD_ARMORS_SENTINEL_MULTILASER                #6800
+    requiresBuy:
+      - STR_GUARD_SUPORT
+    size: 2
+    costBuy: 320000
+    costSell: 100000
+    transferTime: 50
+    listOrder: 6799
+
+  - type: STR_GUARD_ARMORS_SENTINEL_HEAVY_PLASMA                #6800
+    size: 2
+    costSell: 100000
+    listOrder: 6799
+
+  - type: STR_SENTINEL_ARMOR            
+    requiresBuy:
+      - STR_LASCAN
+
+  - type: STR_GUARDSMEN_KRIEG_TOKEN
+    size: 0.1

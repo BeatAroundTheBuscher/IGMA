@@ -1,16 +1,6 @@
 # added special ammo (kraken + metal storm) for light bolters
 # added an ultra pattern
 
-extraStrings:
-  - type: en-US
-    strings:
-      STR_LIGHT_BOLTER_AMMO_AP: "Light Kraken Penetrator Clip"
-      STR_LIGHT_BOLTER_AMMO_EX: "Light Metal Storm Frag Clip"
-      STR_LIGHT_BOLTPISTOL_AMMO_AP: "Light Boltpistol Kraken Penetrator Clip"
-      STR_LIGHT_BOLTPISTOL_AMMO_EX: "Light Boltpistol Metal Storm Frag Clip"
-
-      STR_BOLTER_LIGHT_ULTRA: "Light Bolter Ultra Pattern"
-      STR_BOLTPISTOL_LIGHT_ULTRA: "Light Boltpistol Ultra Pattern"
 
 
 # listOrder

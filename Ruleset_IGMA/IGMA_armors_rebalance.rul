@@ -24,14 +24,6 @@
        stamina: -15 # was -10
        strength: 5 # was -10
        bravery: 10 # was 0 # would prefer if 0 but requires delete for normal carapace
-    selectUnitMale:     [{mod: 40k, index: 211}, {mod: 40k, index: 212}, {mod: 40k, index: 213}, {mod: 40k, index: 214}, {mod: 40k, index: 215}]
-    selectUnitFemale:   [{mod: 40k, index: 231}, {mod: 40k, index: 232}, {mod: 40k, index: 233}, {mod: 40k, index: 234}, {mod: 40k, index: 235}]
-    startMovingMale:    [{mod: 40k, index: 206}, {mod: 40k, index: 207}, {mod: 40k, index: 208}, {mod: 40k, index: 209}, {mod: 40k, index: 210}]
-    startMovingFemale:  [{mod: 40k, index: 226}, {mod: 40k, index: 227}, {mod: 40k, index: 228}, {mod: 40k, index: 229}, {mod: 40k, index: 230}]
-    selectWeaponMale:   [{mod: 40k, index: 201}, {mod: 40k, index: 202}, {mod: 40k, index: 203}, {mod: 40k, index: 204}, {mod: 40k, index: 205}]
-    selectWeaponFemale: [{mod: 40k, index: 221}, {mod: 40k, index: 222}, {mod: 40k, index: 223}, {mod: 40k, index: 224}, {mod: 40k, index: 225}]
-    annoyedMale:        [{mod: 40k, index: 216}, {mod: 40k, index: 217}, {mod: 40k, index: 218}, {mod: 40k, index: 219}, {mod: 40k, index: 220}]
-    annoyedFemale:      [{mod: 40k, index: 236}, {mod: 40k, index: 237}, {mod: 40k, index: 238}, {mod: 40k, index: 239}, {mod: 40k, index: 240}]
 
 
   - type: STR_OFFICER_CARAPACE_ARMOR
@@ -70,14 +62,7 @@
        tu: 5 # was 0 # bring in line with flak
        stamina: 15 # was 0 # bring in line with flak
        bravery: -10 # was 0 # bring in line with flak
-    selectUnitMale:     [{mod: 40k, index: 211}, {mod: 40k, index: 212}, {mod: 40k, index: 213}, {mod: 40k, index: 214}, {mod: 40k, index: 215}]
-    selectUnitFemale:   [{mod: 40k, index: 231}, {mod: 40k, index: 232}, {mod: 40k, index: 233}, {mod: 40k, index: 234}, {mod: 40k, index: 235}]
-    startMovingMale:    [{mod: 40k, index: 206}, {mod: 40k, index: 207}, {mod: 40k, index: 208}, {mod: 40k, index: 209}, {mod: 40k, index: 210}]
-    startMovingFemale:  [{mod: 40k, index: 226}, {mod: 40k, index: 227}, {mod: 40k, index: 228}, {mod: 40k, index: 229}, {mod: 40k, index: 230}]
-    selectWeaponMale:   [{mod: 40k, index: 201}, {mod: 40k, index: 202}, {mod: 40k, index: 203}, {mod: 40k, index: 204}, {mod: 40k, index: 205}]
-    selectWeaponFemale: [{mod: 40k, index: 221}, {mod: 40k, index: 222}, {mod: 40k, index: 223}, {mod: 40k, index: 224}, {mod: 40k, index: 225}]
-    annoyedMale:        [{mod: 40k, index: 216}, {mod: 40k, index: 217}, {mod: 40k, index: 218}, {mod: 40k, index: 219}, {mod: 40k, index: 220}]
-    annoyedFemale:      [{mod: 40k, index: 236}, {mod: 40k, index: 237}, {mod: 40k, index: 238}, {mod: 40k, index: 239}, {mod: 40k, index: 240}]
+
 
   - type: STR_OFFICER_FLAK_ARMOR
     stats:
@@ -136,3 +121,45 @@
        stamina: -15 # was -10
        strength: 5 # was -10
        bravery: 10 # was 0 # would prefer if 0 but requires delete for normal carapace
+
+# added Commissar shield to Psykers
+# maybe the values should be higher but I don't want to go overboat, yet
+# sidenote: psykers do have different stamina and morale recovery values
+# make sure that STR_TELEKINE doesn't get a shield from its inbuilt item
+# ..... no they don't but they can create shields
+
+  - type: STR_PSYKER_ARMOR
+    tags:
+      ARMOR_ENERGY_SHIELD_HP_PER_TURN: 40
+      ARMOR_ENERGY_SHIELD_DECAY: 50 # = 50% so shield value is 40 * 100%/50%
+      ARMOR_GAINS_PSISKILL_SECONDARY_EXPERIENCE: 6
+
+  - type: STR_BIOMANCER
+    tags:
+      ARMOR_ENERGY_SHIELD_HP_PER_TURN: 40
+      ARMOR_ENERGY_SHIELD_DECAY: 50
+      ARMOR_GAINS_PSISKILL_SECONDARY_EXPERIENCE: 6
+
+  - type: STR_DIVINER # has psiVision: 15
+    tags:
+      ARMOR_ENERGY_SHIELD_HP_PER_TURN: 40
+      ARMOR_ENERGY_SHIELD_DECAY: 50
+      ARMOR_GAINS_PSISKILL_SECONDARY_EXPERIENCE: 6
+
+  - type: STR_PYROMANCER
+    tags:
+      ARMOR_ENERGY_SHIELD_HP_PER_TURN: 40
+      ARMOR_ENERGY_SHIELD_DECAY: 50
+      ARMOR_GAINS_PSISKILL_SECONDARY_EXPERIENCE: 6
+
+  - type: STR_TELEKINE # has psiVision: 5 # may already get a shield, check
+    tags:
+      ARMOR_ENERGY_SHIELD_HP_PER_TURN: 40
+      ARMOR_ENERGY_SHIELD_DECAY: 50
+      ARMOR_GAINS_PSISKILL_SECONDARY_EXPERIENCE: 6
+
+  - type: STR_TELEPATH
+    tags:
+      ARMOR_ENERGY_SHIELD_HP_PER_TURN: 40
+      ARMOR_ENERGY_SHIELD_DECAY: 50
+      ARMOR_GAINS_PSISKILL_SECONDARY_EXPERIENCE: 6
