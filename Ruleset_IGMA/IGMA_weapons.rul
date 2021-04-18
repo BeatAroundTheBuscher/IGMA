@@ -75,7 +75,7 @@ items:
     maxRange: 1
     fixedWeapon: true
     specialUseEmptyHand: false # no accidential blowups
-    specialIconSprite: {mod: 40k, index: 103}
+    specialIconSprite: 202
     clipSize: 1
     confAimed:
       name: STR_EXPLOSIVE_COLLAR
@@ -615,7 +615,7 @@ items:
 
   - type: STR_KRIEG_SHOVEL 
     weight: 0
-    specialIconSprite: 200
+    specialIconSprite: 201
     specialUseEmptyHand: true
     meleeHitSound: {mod: 40k, index: 101}
     meleeAnimation: 0
