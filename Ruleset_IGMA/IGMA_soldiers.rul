@@ -16,9 +16,9 @@ extended:
 soldiers:
   - type: STR_GUARD_IMPERIAL_ASSASSIN
     flagOffset: 42
-    requires:
-      - STR_NOT_AVAILABLE # supposed to be "manufactured"
     costSalary: 100000
+    requires:
+        - STR_GUARD_IMPERIAL_ASSASSIN_REQUISITION
     minStats: 
       tu: 60
       stamina: 70
@@ -242,45 +242,6 @@ soldiers:
     moraleLossWhenKilled: 0
     value: 0
 
-# show wages
-  - type: STR_GUARD_VETERAN
-    requires:
-      - STR_STORMTROOPER_REQUISITION
-
-  - type: STR_GUARD_OFFICER
-    requires:
-      - STR_IMPERIAL_GUARD_OPERATIONS
-
-  - type: STR_COMMISSAR
-    requires:
-      - STR_IMPERIAL_GUARD_OPERATIONS
-
-  - type: STR_STORMTROOPER
-    requires:
-      - STR_STORMTROOPER_REQUISITION
-
-  - type: STR_PSYKER
-    requires:
-      - STR_PSYKER_REQUISITION
-
-  - type: STR_GUARD_IMPERIAL_ASSASSIN
-    requires:
-        - STR_GUARD_IMPERIAL_ASSASSIN_REQUISITION
-
-  - type: STR_GUARD_PRIEST
-    requires:
-        - STR_GUARD_PRIEST_REQUISITION
-
-  - type: STR_GUARD_OFFICER_VETERAN
-    requires:
-      - STR_REGIMENT_OFFICERS
-      - STR_STORMTROOPER_REQUISITION
-
-  - type: STR_STORMTROOPER_OFFICER
-    requires:
-      - STR_REGIMENT_OFFICERS
-      - STR_STORMTROOPER_REQUISITION
-
   - type: STR_GUARDSM_KRIEG
     requires:
       - STR_GUARD_SUPORT
@@ -364,7 +325,7 @@ soldiers:
   - type: STR_GUARD_PRIEST
     flagOffset: 42
     requires:
-      - STR_NOT_AVAILABLE # supposed to be "manufactured"
+        - STR_GUARD_PRIEST_REQUISITION
     costSalary: 50000
     minStats: 
       tu: 50
@@ -439,7 +400,8 @@ soldiers:
     type: STR_GUARD_OFFICER_VETERAN
     flagOffset: 42
     requires:
-      - STR_NOT_AVAILABLE
+      - STR_REGIMENT_OFFICERS
+      - STR_STORMTROOPER_REQUISITION
     costSalary: 50000
     minStats: # doesn't matter
       tu: 50
@@ -546,3 +508,29 @@ soldiers:
       firing: 80 # was 70 # Scion was highest # doesn't matter
       throwing: 70 # was 65 # Scion was highest
       strength: 35 # was 25 # Others were highest
+
+# show wages
+  - type: STR_GUARD_VETERAN
+    requires:
+      - STR_STORMTROOPER_REQUISITION
+
+  - type: STR_GUARD_OFFICER
+    requires:
+      - STR_IMPERIAL_GUARD_OPERATIONS
+
+  - type: STR_COMMISSAR
+    requires:
+      - STR_IMPERIAL_GUARD_OPERATIONS
+
+  - type: STR_STORMTROOPER
+    requires:
+      - STR_STORMTROOPER_REQUISITION
+
+  - type: STR_PSYKER
+    requires:
+      - STR_PSYKER_REQUISITION
+
+  - type: STR_STORMTROOPER_OFFICER
+    requires:
+      - STR_REGIMENT_OFFICERS
+      - STR_STORMTROOPER_REQUISITION
