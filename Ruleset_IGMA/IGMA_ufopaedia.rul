@@ -459,3 +459,46 @@ ufopaedia:
   - id: STR_SENTINEL_ARMOR_UC              #6800   #ARMOR
     requires:
         - STR_LASCAN
+
+
+# listOrder
+# STR_BOLTPISTOL_DEAZ 10090
+# STR_MC_BOLTPISTOL_DEAZ 10091
+# STR_BOLTPISTOL_LIGHT_ULTRA # 10092
+
+# STR_BOLTER_DEAZ 10290
+# STR_BOLTER_ENFORCER 10291
+# STR_BOLTER_LOCKE 10292
+# STR_MC_BOLTER_DEAZ 10293
+# STR_BOLTER_LIGHT_ULTRA 10294
+
+  - id: STR_LIGHT_BOLTER_AMMO_AP
+    type_id: 14
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_LIGHT_BOLTER_AMMO_EX
+    type_id: 14
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_LIGHT_BOLTPISTOL_AMMO_AP
+    type_id: 14
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_LIGHT_BOLTPISTOL_AMMO_EX
+    type_id: 14
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_BOLTER_LIGHT_ULTRA                      #10305
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    image_id: 1MB.SPK
+    text: STR_BOLTER_DEAZ_UFOPEDIA
+    listOrder: 10294
+
+  - id: STR_BOLTPISTOL_LIGHT_ULTRA                      #10305
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    image_id: 1BP.SPK
+    text: STR_PISTOL_UFOPEDIA
+    # text: STR_BOLTER_DEAZ_UFOPEDIA
+    listOrder: 10092

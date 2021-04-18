@@ -40,18 +40,6 @@ items:
     armor: 20
     recover: false
 
-  # no idea why there need to be two different weapons
-  - &STR_SENTINEL_MISSILE
-    type: STR_SENTINEL_MISSILE_LAUNCHER
-    compatibleAmmo:
-      - STR_SENTINEL_FRAG_MISSILES
-      - STR_SENTINEL_KRAKK_MISSILES
-      - STR_SENTINEL_FRAG_MISSILES_PD
-      - STR_SENTINEL_KRAKK_MISSILES_PD
-
-  - type: STR_SENTINELPD_MISSILE_LAUNCHER
-    refNode: *STR_SENTINEL_MISSILE
-
   - type: INV_NULL_SENTINEL_BACK_MISSILE
     bigSprite: 220
     invWidth: 3
