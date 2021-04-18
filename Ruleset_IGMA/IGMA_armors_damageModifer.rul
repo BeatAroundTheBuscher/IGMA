@@ -50,7 +50,7 @@ armors:
 #    refNode: *STR_GUARD_VEHICLE
 
   - &STR_GUARD_VEHICLE
-  - type: STR_GUARD_ARMORS_SENTINEL_HEAVY_PLASMA_UC
+    type: STR_GUARD_ARMORS_SENTINEL_HEAVY_PLASMA_UC
     damageModifier: #VEHICLE ARMOR LARGE
       - 1.0 #none
       - 1.0 #AP
