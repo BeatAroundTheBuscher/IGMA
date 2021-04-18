@@ -68,7 +68,7 @@ items:
   - type: STR_GUARD_ARMORS_SENTINEL_HEAVY_PLASMA                #6800
     size: 2
     costSell: 100000
-    listOrder: 6799
+    listOrder: 6870
 
   - type: STR_SENTINEL_ARMOR            
     requiresBuy:
@@ -76,3 +76,12 @@ items:
 
   - type: STR_GUARDSMEN_KRIEG_TOKEN
     size: 0.1
+
+  - type: INV_NULL_SENTINEL_BACK_HEAVY_PLASMA
+    bigSprite: 219
+    invWidth: 3
+    invHeight: 3
+    weight: 0
+    fixedWeapon: true
+    recover: false
+    defaultInventorySlot: STR_BACK_PACK
