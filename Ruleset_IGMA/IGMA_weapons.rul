@@ -3,6 +3,8 @@ extended:
     RuleItem:
       ITEM_COLOR_CHANGES_WITH_AMMO_NON_GRAY: int
       ITEM_AMMO_SKIP_BIGOBS: int
+      ITEM_BLESS_MELEE_ACCURACY: int
+      ITEM_BLESS_FIRING_ACCURACY: int
 
 items:
   - type: STR_MOUNTED_HEAVY_BOLTER # gets 150 % accuracy and 75 % TU costfor being mounted
@@ -781,7 +783,7 @@ items:
     #hitSound: 19 #*** PLASMA rebalance
     explosionHitSound: {mod: 40k, index: 690} #*** PLASMA rebalance
     hitAnimation: {mod: 40k, index: 112} #100 #*** PLASMA rebalance
-    power: 110
+    power: 90
     damageType: 5
     damageAlter: #DA PLASMA
       #ToHealth: 0.9

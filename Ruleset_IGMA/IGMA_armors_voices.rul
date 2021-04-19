@@ -85,7 +85,10 @@ armors:
     annoyedMale:        [{mod: 40k, index: 936}, {mod: 40k, index: 937}, {mod: 40k, index: 938}, {mod: 40k, index: 939}, {mod: 40k, index: 940}]
     annoyedFemale:      [{mod: 40k, index: 236}, {mod: 40k, index: 237}, {mod: 40k, index: 238}, {mod: 40k, index: 239}, {mod: 40k, index: 240}]
 
-  - type: STR_SCION_CARAPACE_OFFICER_ARMOR_HELLPISTOL
+  - type: STR_SCION_CARAPACE_OFFICER_ARMOR_HELLPISTOL # legacy
+    refNode: *STR_GUARD_VETERAN
+
+  - type: STR_SCION_OFFICER_CARAPACE_ARMOR_HELLPISTOL
     refNode: *STR_GUARD_VETERAN
     
   - type: STR_SCION_MEDIC_CARAPACE_ARMOR
@@ -107,7 +110,10 @@ armors:
     refNode: *STR_GUARD_VETERAN 
 
 #  - type: STR_STORMTROOPER_CARAPACE_ARMOR_VOLLEYGUN
-  - type: STR_STORMTROOPER_CARAPACE_OFFICER_ARMOR_HELLPISTOL
+  - type: STR_STORMTROOPER_CARAPACE_OFFICER_ARMOR_HELLPISTOL # legacy
+    refNode: *STR_GUARD_VETERAN  
+
+  - type: STR_STORMTROOPER_OFFICER_CARAPACE_ARMOR_HELLPISTOL
     refNode: *STR_GUARD_VETERAN  
 
   - type: STR_STORMTROOPER_MEDIC_CARAPACE_ARMOR

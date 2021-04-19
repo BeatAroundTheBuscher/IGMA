@@ -85,3 +85,5 @@ items:
     fixedWeapon: true
     recover: false
     defaultInventorySlot: STR_BACK_PACK
+
+  - type: STR_UNOBTAINABLE
